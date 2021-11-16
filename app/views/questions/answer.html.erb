@@ -1,0 +1,10 @@
+<h1>Stupid Coaching</h1>
+
+<div class="shadow-none p-3 mb-5 bg-light rounded">
+  <ul>
+    <li class = "question">Your question: <%= params[:question] %></li>
+    <li class = "answer"> Answer: <%= @answer %></li>
+  </ul>
+</div>
+
+<%= link_to "Ask a new question", "/ask", class: "link" %>
